@@ -29,3 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 https://devcenter.heroku.com/articles/mean-apps-restful-api#complete-the-project-and-deploy
 
 export MONGODB_URI=mongodb://heroku_k3h8dgpk:jd3s3d2s4t7rtm806spaeihrbj@ds143326.mlab.com:43326/heroku_k3h8dgpk
+
+curl -H "Content-Type: application/json" -d '{"name":"mLab Support", "email": "support@mlab.com"}' http://nameless-eyrie-13740.herokuapp.com/api/contacts
+
+http://nameless-eyrie-13740.herokuapp.com/api/contacts
