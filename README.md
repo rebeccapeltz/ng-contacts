@@ -35,3 +35,22 @@ http://nameless-eyrie-13740.herokuapp.com/api/contacts
 
 **App**
 https://nameless-eyrie-13740.herokuapp.com/
+
+**Pushing changes**
+```bash
+git add .
+  566  git commit -m"add app.json"
+  567  git push heroku
+  568  heroku open
+  569  git add .
+  570  git commit -m"add app.json
+"
+  571  git push
+  572  histor
+  573  history
+  ```
+  **export MONGO_URI** 
+  export MONGODB_URI=  see https://dashboard.heroku.com/apps/nameless-eyrie-13740/settings
+  
+  
+
